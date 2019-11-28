@@ -4,24 +4,24 @@
 
 ## Scraper ApkPure.com (For Bypass purpose)
 **Get Language** :
-- /language
+- /apkpure/language
 
 **Get Search** : (Opsi pilihan bisa ditambahkan 'id' Language)
-- /search/hago (Query Text only)
-- /id/search/hago
+- /apkpure/search/hago (Query Text only)
+- /apkpure/id/search/hago
 
 **Get Developer** : (Opsi pilihan bisa ditambahkan 'id' Language)
-- /developer/{code} ('code' pada query array `[DEVELOPER][CODE]`)
-- /developer/moonton (Opsional Non 'code')
-- /id/developer/{code}
-- /id/developer/Moonton
+- /apkpure/developer/{code} ('code' pada query array `[DEVELOPER][CODE]`)
+- /apkpure/developer/moonton (Opsional Non 'code')
+- /apkpure/id/developer/{code}
+- /apkpure/id/developer/Moonton
 
 **Get Detail** :
-- /detail/{code} ('code' pada query array `[APP][CODE]`)
-- /id/detail/{code}
+- /apkpure/detail/{code} ('code' pada query array `[APP][CODE]`)
+- /apkpure/id/detail/{code}
 
 **Download Files** :
-- /download/{code} ('code' pada query array `[APP][CODE]`)
+- /apkpure/download/{code} ('code' pada query array `[APP][CODE]`)
 
 >**Catatan untuk 'code' pada Array **
 - Get Language ~~[APP][CODE]~~
