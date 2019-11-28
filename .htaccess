@@ -6,4 +6,4 @@ RewriteRule apkpure/developer/(.*) api.php?type=fetchPublisher&query=$1 [L]
 RewriteRule apkpure/(.*)/developer/(.*) api.php?language=$1&type=fetchPublisher&query=$2 [L]
 RewriteRule apkpure/detail/(.*) api.php?type=fetchDetail&query=$1 [L]
 RewriteRule apkpure/(.*)/detail/(.*) api.php?language=$1&type=fetchDetail&query=$2 [L]
-RewriteRule apkpure/download/(.*) api.php?type=loadFile&query=$1 [L]ssss
+RewriteRule apkpure/download/(.*) api.php?type=loadFile&query=$1 [L]
