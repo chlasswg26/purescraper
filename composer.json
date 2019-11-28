@@ -1,0 +1,6 @@
+{
+    "require": {
+        "miladrahimi/php-jwt": "^2.1",
+        "chlasswg26/chlassgrabber": "^1.0"
+    }
+}

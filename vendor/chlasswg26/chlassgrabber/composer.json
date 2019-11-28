@@ -1,0 +1,26 @@
+{
+    "name": "chlasswg26/chlassgrabber",
+    "description": "Design Parent cURL Class ApkPure.com Crafted ChlassWG26 (Remake from SAYED AHAMED on Medium.com)",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ichlas Wardy Gustama",
+            "email": "cahyo4713@gmail.com"
+        }
+    ],
+    "scripts": {
+           "test": [
+               "phpunit --testdox"
+           ]
+    },
+    "autoload": {
+        "classmap": [
+            "src/chlasscurl.php"
+        ]
+    },
+    "require": {}
+}

@@ -1,0 +1,9 @@
+RewriteEngine ON
+RewriteRule apkpure/language api.php?type=fetchLanguage [L]
+RewriteRule apkpure/search/(.*) api.php?type=fetchSearch&query=$1 [L]
+RewriteRule apkpure/(.*)/search/(.*) api.php?language=$1&type=fetchSearch&query=$2 [L]
+RewriteRule apkpure/developer/(.*) api.php?type=fetchPublisher&query=$1 [L]
+RewriteRule apkpure/(.*)/developer/(.*) api.php?language=$1&type=fetchPublisher&query=$2 [L]
+RewriteRule apkpure/detail/(.*) api.php?type=fetchDetail&query=$1 [L]
+RewriteRule apkpure/(.*)/detail/(.*) api.php?language=$1&type=fetchDetail&query=$2 [L]
+RewriteRule apkpure/download/(.*) api.php?type=loadFile&query=$1 [L]
